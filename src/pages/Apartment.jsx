@@ -1,4 +1,5 @@
 import React from "react";
+import "./Apartment.scss";
 
 function Apartment() {
   return (

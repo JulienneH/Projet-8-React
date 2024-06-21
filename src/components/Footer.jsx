@@ -1,5 +1,6 @@
 import React from "react";
 import footer from "../assets/Footer.png";
+import "./Footer.scss";
 function Footer() {
   return (
     <footer>

@@ -1,5 +1,6 @@
 import React from "react";
 import header from "../assets/Header.png";
+import "./Header.scss";
 function Header() {
   return (
     <header>
