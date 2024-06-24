@@ -8,9 +8,13 @@
     display: flex;
     position: absolute;
     top: 40px;
-    right: 80px;
+    right: 10px;
   }
   &_link {
     margin-right: 80px;
+  }
+  &_link:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
 }
