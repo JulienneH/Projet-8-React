@@ -1,6 +1,5 @@
 import React from "react";
-import "./Apartment.scss";
-
+import "../styles/main.scss";
 function Apartment() {
   return (
     <header>

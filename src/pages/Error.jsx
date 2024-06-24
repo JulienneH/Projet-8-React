@@ -1,6 +1,5 @@
 import React from "react";
-import "./Error.scss";
-
+import "../styles/main.scss";
 function Error() {
   return (
     <div>

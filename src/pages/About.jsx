@@ -1,6 +1,5 @@
 import React from "react";
-import "./About.scss";
-
+import "../styles/main.scss";
 function About() {
   return (
     <div>

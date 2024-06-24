@@ -1,0 +1,16 @@
+.header {
+  &_logo {
+    margin: 30px 0px 30px 50px;
+  }
+
+  &_menu {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 80px;
+  }
+  &_link {
+    margin-right: 80px;
+  }
+}

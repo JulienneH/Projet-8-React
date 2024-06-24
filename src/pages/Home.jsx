@@ -1,6 +1,5 @@
 import React from "react";
-import "./Home.scss";
-
+import "../styles/main.scss";
 function Home() {
   return (
     <header>
