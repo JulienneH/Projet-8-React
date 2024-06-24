@@ -3,7 +3,7 @@ import "../styles/main.scss";
 function Error() {
   return (
     <div>
-      <h1>Cette page n'existe pas</h1>
+      <h1 className="error_message">Désolé, cette page n'existe pas !</h1>
     </div>
   );
 }
