@@ -1,4 +1,27 @@
 .footer {
   width: 100%;
-  padding-top: 280px;
+  height: 210px;
+  margin-top: 300px;
+  background-color: black;
+
+  &_img {
+    position: relative;
+    left: 47%;
+    top: 30%;
+  }
+  &_icon {
+    color: white;
+    position: relative;
+    top: 59%;
+    left: 30%;
+  }
+  &_text {
+    color: white;
+    position: relative;
+    top: 35%;
+    left: 40%;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
 }
