@@ -2,13 +2,6 @@
   &_logo {
     margin: 30px 0px 30px 50px;
   }
-  &_image {
-    position: absolute;
-    top: 150px;
-    height: 220px;
-    width: 93%;
-    left: 50px;
-  }
 
   &_menu {
     list-style-type: none;
@@ -19,9 +12,16 @@
   }
   &_link {
     margin-right: 80px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    &.active .header_link_style {
+      text-decoration: underline;
+    }
   }
-  &_link:hover {
-    text-decoration: underline;
-    cursor: pointer;
+
+  &_link_style {
+    text-decoration: none;
+    color: black;
   }
 }
