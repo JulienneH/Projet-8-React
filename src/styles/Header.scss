@@ -1,5 +1,14 @@
 .header {
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+
   &_logo {
+    @media (max-width: 768px) {
+      width: 40%;
+      margin: 20px;
+    }
     margin: 30px 0px 30px 50px;
   }
 
@@ -9,12 +18,24 @@
     position: absolute;
     top: 40px;
     right: 10px;
+    @media (max-width: 768px) {
+      flex-direction: row;
+      right: 0px;
+      justify-content: space-between;
+      top: 2%;
+      text-transform: uppercase;
+    }
   }
   &_link {
     margin-right: 80px;
     font-family: "Montserrat";
     font-size: 24px;
     font-weight: 500;
+    @media (max-width: 768px) {
+      margin-right: auto;
+      font-size: 15px;
+      margin-right: 25px;
+    }
     &.active .header_link_style {
       text-decoration: underline;
     }

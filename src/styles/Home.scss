@@ -1,3 +1,8 @@
+.home_container {
+  @media (max-width: 768px) {
+    height: 30px;
+  }
+}
 .home_image {
   position: absolute;
   top: 150px;
@@ -8,6 +13,13 @@
   filter: brightness(0.4);
   object-fit: cover;
   box-shadow: 0px 4px 4px 0px #00000040;
+  @media (max-width: 768px) {
+    margin-top: 10px;
+    height: 15%;
+    display: flex;
+    left: 3%;
+    top: auto;
+  }
 }
 .home_text {
   position: relative;
@@ -17,4 +29,12 @@
   font-size: 48px;
   font-family: "Montserrat";
   font-weight: 700;
+  @media (max-width: 768px) {
+    left: 30px;
+    font-size: 24px;
+    display: flex;
+    top: 13%;
+    width: 55%;
+    position: absolute;
+  }
 }

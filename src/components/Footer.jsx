@@ -9,8 +9,12 @@ function FooterComponent() {
     <footer>
       <div className="footer">
         <img className="footer_img" src={Footer} alt="logo" />
-        <FontAwesomeIcon className="footer_icon" icon={faCopyright} />
-        <h3 className="footer_text">2020 Kasa.All rights reserved</h3>
+
+        <h3 className="footer_text">
+          {" "}
+          <FontAwesomeIcon className="footer_icon" icon={faCopyright} />
+          2020 Kasa.All rights reserved
+        </h3>
       </div>
     </footer>
   );

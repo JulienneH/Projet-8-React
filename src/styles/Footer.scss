@@ -3,17 +3,25 @@
   height: 210px;
   margin-top: 300px;
   background-color: black;
+  @media (max-width: 768px) {
+    position: inherit;
+    margin-top: 30px;
+  }
 
   &_img {
     position: relative;
-    left: 47%;
     top: 30%;
+    left: 50%;
+    @media (max-width: 768px) {
+      position: inherit;
+      margin-left: 35%;
+      margin-top: 15%;
+    }
   }
   &_icon {
     color: white;
     position: relative;
-    top: 59%;
-    left: 30%;
+    margin-right: 10px;
   }
   &_text {
     color: white;
@@ -23,5 +31,10 @@
     font-size: 24px;
     font-family: "Montserrat";
     font-weight: 500;
+    @media (max-width: 768px) {
+      position: inherit;
+      font-size: 12px;
+      text-align: center;
+    }
   }
 }
