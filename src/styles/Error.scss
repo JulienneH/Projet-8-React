@@ -1,3 +1,24 @@
-.error_message {
-  text-align: center;
+.error {
+  &_404 {
+    color: #ff6060;
+    font-family: "Montserrat";
+    font-size: 288px;
+    text-align: center;
+    margin: 100px;
+  }
+  &_message {
+    color: #ff6060;
+    font-size: 36px;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  &_link {
+    display: block;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-family: "Montserrat";
+    margin-bottom: 100px;
+  }
 }
