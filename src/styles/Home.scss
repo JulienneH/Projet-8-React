@@ -20,6 +20,10 @@
     left: 3%;
     top: auto;
   }
+
+  @media (min-width: 768px) and (max-width: 1025px) {
+    left: 50px;
+  }
 }
 .home_text {
   position: relative;
@@ -36,5 +40,8 @@
     top: 13%;
     width: 55%;
     position: absolute;
+  }
+  @media (min-width: 768px) and (max-width: 1025px) {
+    left: 10%;
   }
 }
