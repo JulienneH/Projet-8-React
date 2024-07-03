@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles/main.scss";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import data from "../data.json";
 
 function ApartmentDetails() {
@@ -10,7 +9,7 @@ function ApartmentDetails() {
 
   //gérer le cas où il n'y a pas d'appartement
   if (!apartment) {
-    return <h2>Appartement non trouvé</h2>;
+    return <Link to={`/error.jsx`}></Link>;
   }
 
   return (
