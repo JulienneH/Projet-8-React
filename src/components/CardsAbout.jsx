@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../styles/main.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 export const aboutList = [
   {
@@ -32,17 +32,19 @@ const CardStandard = ({ standard }) => {
   };
 
   return (
-    <div className="standard_individual">
-      <div className="standard_title" onClick={Collapse}>
-        <h1>{standard.title}</h1>
-        <span className="arrow">
-          <FontAwesomeIcon icon="fa-solid fa-chevron-up" />
-        </span>
+    <>
+      <div className="standard_individual">
+        <div className="standard_title" onClick={Collapse}>
+          <h1>{standard.title}</h1>
+          <span className={`standard_icon ${isOpen ? "rotate" : ""}`}>
+            <FontAwesomeIcon icon={faChevronUp} />
+          </span>
+        </div>
       </div>
       <div className={`standard_content ${isOpen ? "open" : ""}`}>
-        {isOpen && <p>{standard.content}</p>}
+        <p>{standard.content}</p>
       </div>
-    </div>
+    </>
   );
 };
 //création d'un composant CardStandard pour chaque élément "standard" de AboutList
@@ -57,10 +59,6 @@ const DisplayCards = () => {
   );
 };
 const About = () => {
-  return (
-    <>
-      <DisplayCards />
-    </>
-  );
+  return <DisplayCards />;
 };
 export default About;
