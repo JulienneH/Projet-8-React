@@ -2,7 +2,7 @@ import React from "react";
 import Cards from "../components/Cards";
 import coverHome from "../assets/coverHome.png";
 
-function Container() {
+function Home() {
   return (
     <>
       <div className="home_container">
@@ -15,4 +15,4 @@ function Container() {
   );
 }
 
-export default Container;
+export default Home;

@@ -1,13 +1,13 @@
 import React from "react";
-import Footer from "../assets/logoFooter.png";
+import FooterLogo from "../assets/logoFooter.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 
-function FooterComponent() {
+function Footer() {
   return (
     <footer>
       <div className="footer">
-        <img className="footer_img" src={Footer} alt="logo" />
+        <img className="footer_img" src={FooterLogo} alt="logo" />
 
         <h3 className="footer_text">
           {" "}
@@ -19,4 +19,4 @@ function FooterComponent() {
   );
 }
 
-export default FooterComponent;
+export default Footer;

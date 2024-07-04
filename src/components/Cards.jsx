@@ -1,10 +1,7 @@
 import React from "react";
 import data from "../data.json";
 import { Link } from "react-router-dom";
-
-const CardContainer = ({ children }) => {
-  return <div className="card_container">{children}</div>;
-};
+import Container from "./Container";
 
 const Card = ({ apartment }) => {
   return (
@@ -21,13 +18,12 @@ const Card = ({ apartment }) => {
 
 function Cards() {
   return (
-    <CardContainer>
+    <Container>
       {data.map((apartment) => (
         <Card key={apartment.id} apartment={apartment} />
       ))}
-    </CardContainer>
+    </Container>
   );
 }
 
 export default Cards;
-export { CardContainer, Cards };

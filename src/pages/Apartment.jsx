@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import data from "../data.json";
 
-function ApartmentDetails() {
+function Apartment() {
   const { id } = useParams();
   //chercher l'appartement dans data dont l'id correspond à l'id de l'appartement de la card
   const apartment = data.find((apartment) => apartment.id === id);
@@ -21,4 +21,4 @@ function ApartmentDetails() {
   );
 }
 
-export default ApartmentDetails;
+export default Apartment;

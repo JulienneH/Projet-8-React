@@ -27,22 +27,20 @@
   }
   &_text {
     color: white;
-    position: relative;
-    top: 35%;
-    left: 40%;
+    display: flex;
+    margin-top: 90px;
+    margin-left: 43%;
     font-size: 24px;
     font-family: "Montserrat";
     font-weight: 500;
     @media (max-width: 768px) {
-      position: inherit;
       font-size: 12px;
       text-align: center;
+      margin-top: 20px;
+      margin-left: 26%;
     }
     @media (min-width: 768px) and (max-width: 1025px) {
-      display: flex;
-      margin-top: 70px;
-      justify-content: center;
-      position: inherit;
+      margin-left: 30%;
     }
   }
 }
