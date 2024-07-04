@@ -1,20 +1,11 @@
 import React from "react";
-import "../styles/main.scss";
 import AboutPageImage from "../assets/AboutPage.png";
 import AboutCards from "../components/CardsAbout";
-
-function AboutImg() {
-  return (
-    <>
-      <img className="home_image" src={AboutPageImage} alt="Image_landscape" />
-    </>
-  );
-}
 
 const About = () => {
   return (
     <div>
-      <AboutImg />
+      <img className="home_image" src={AboutPageImage} alt="Image_landscape" />
       <AboutCards />
     </div>
   );
