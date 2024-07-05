@@ -1,22 +1,25 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import data from "../data.json";
+import Caroussel from "../components/Caroussel";
 
 function Apartment() {
   const { id } = useParams();
-  //chercher l'appartement dans data dont l'id correspond à l'id de l'appartement de la card
   const apartment = data.find((apartment) => apartment.id === id);
 
-  //gérer le cas où il n'y a pas d'appartement
   if (!apartment) {
-    return <Link to={`/error.jsx`}></Link>;
+    return (
+      <Link to={`/error.jsx`}>
+        Appartement non trouvé. Retour à la page d'erreur.
+      </Link>
+    );
   }
 
   return (
-    <div className="apartment_details">
-      <h1>{apartment.title}</h1>
-      <img src={apartment.cover} alt={apartment.title} />
-      <p>{apartment.description}</p>
+    <div className="caroussel">
+      <Caroussel pictures={apartment.pictures} />
+      <h1 className="caroussel_title">{apartment.title}</h1>
+      <p className="caroussel_description">{apartment.description}</p>
     </div>
   );
 }

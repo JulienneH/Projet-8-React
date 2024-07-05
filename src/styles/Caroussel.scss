@@ -1,0 +1,32 @@
+.caroussel {
+  .caroussel_img {
+    margin-left: 50px;
+    width: 93%;
+    object-fit: cover;
+    height: 413px;
+  }
+
+  .caroussel_title {
+    color: #ff6060;
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 50px;
+  }
+
+  .caroussel_description {
+    margin-left: 50px;
+    margin-bottom: 100px;
+  }
+  .caroussel_icon {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 60px;
+    bottom: 250px;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+  }
+}
