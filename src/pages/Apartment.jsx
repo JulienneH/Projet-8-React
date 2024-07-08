@@ -4,15 +4,13 @@ import data from "../data.json";
 import Caroussel from "../components/Caroussel";
 
 function Apartment() {
+  //extraction de l'identifiant de l'appart à partir de l'URL grace à useParams
   const { id } = useParams();
+  //recherche de l'appart dans les données par son id
   const apartment = data.find((apartment) => apartment.id === id);
 
   if (!apartment) {
-    return (
-      <Link to={`/error.jsx`}>
-        Appartement non trouvé. Retour à la page d'erreur.
-      </Link>
-    );
+    return <Link to={`/error.jsx`}></Link>;
   }
 
   return (
