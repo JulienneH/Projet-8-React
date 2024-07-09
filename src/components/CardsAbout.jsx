@@ -32,7 +32,7 @@ const CardStandard = ({ standard }) => {
   };
 
   return (
-    <>
+    <div className="standard">
       <div className="standard_individual">
         <div className="standard_title" onClick={Collapse}>
           <h1>{standard.title}</h1>
@@ -44,7 +44,7 @@ const CardStandard = ({ standard }) => {
       <div className={`standard_content ${isOpen ? "open" : ""}`}>
         <p>{standard.content}</p>
       </div>
-    </>
+    </div>
   );
 };
 //création d'un composant CardStandard pour chaque élément "standard" de AboutList

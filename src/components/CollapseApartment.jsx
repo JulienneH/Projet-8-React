@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-const Details = ({ description, equipments }) => {
+const CollapseApartment = ({ description, equipments }) => {
   const [isDescriptionOpen, setIsDescriptionOpen] = useState(false); // isOpen est la variable d'état et setIsOpen est la fonction qui la met à jour
   const [isEquipmentsOpen, setIsEquipmentsOpen] = useState(false);
 
@@ -53,4 +53,4 @@ const Details = ({ description, equipments }) => {
   );
 };
 
-export default Details;
+export default CollapseApartment;
