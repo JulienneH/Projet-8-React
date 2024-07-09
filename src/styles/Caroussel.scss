@@ -1,24 +1,24 @@
 .caroussel {
-  .caroussel_img {
+  &_img {
     margin-left: 50px;
     width: 93%;
     object-fit: cover;
     height: 413px;
   }
 
-  .caroussel_title {
-    color: #ff6060;
+  &_title {
+    color: $red;
     font-family: "Montserrat";
     font-size: 36px;
     font-weight: 500;
     margin-left: 50px;
   }
 
-  .caroussel_description {
+  &_description {
     margin-left: 50px;
     margin-bottom: 100px;
   }
-  .caroussel_icon {
+  &_icon {
     font-size: 50px;
     display: flex;
     justify-content: space-between;
@@ -26,14 +26,22 @@
     left: 60px;
     bottom: 250px;
     width: 90%;
-    color: white;
+    color: $white;
     cursor: pointer;
   }
-  .caroussel_counter {
+  &_counter {
     position: relative;
     text-align: center;
     bottom: 50px;
-    color: white;
+    color: $white;
     font-size: 18px;
   }
+  &_location {
+    margin-left: 50px;
+    font-family: "Montserrat";
+    font-size: 18px;
+  }
+}
+.caroussel_container {
+  height: 413px;
 }
