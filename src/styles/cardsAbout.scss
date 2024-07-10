@@ -47,15 +47,6 @@
   }
 
   &_content.open {
-    max-height: 50px;
+    max-height: 200px;
   }
-}
-
-.description_container {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 50px;
-}
-.description_individual {
-  width: 200%;
 }

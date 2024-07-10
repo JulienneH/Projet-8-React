@@ -20,23 +20,19 @@ function Apartment() {
 
   return (
     <div className="caroussel">
-      <Caroussel
-        className="caroussel_container"
-        pictures={apartment.pictures}
-      />
+      <Caroussel pictures={apartment.pictures} />
       <Description title={apartment.title} location={apartment.location} />
-      <CollapseApartment
-        className="caroussel_description"
-        description={apartment.description}
-        equipments={apartment.equipments}
-      />
+      <Tags tags={apartment.tags} />
       <Host
         className="host"
         name={apartment.host.name}
         picture={apartment.host.picture}
       />
-      <Tags className="Tags" tags={apartment.tags} />
       <Rating rating={apartment.rating} />
+      <CollapseApartment
+        description={apartment.description}
+        equipments={apartment.equipments}
+      />
     </div>
   );
 }

@@ -35,7 +35,7 @@ function Caroussel({ pictures }) {
   }
 
   return (
-    <div className="caroussel">
+    <div className="caroussel_container">
       <img className="caroussel_img" src={pictures[currentPicture]} alt="" />
       <div className="caroussel_counter">
         {currentPicture + 1} / {pictures.length}
