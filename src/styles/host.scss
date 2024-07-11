@@ -1,0 +1,16 @@
+.host {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  right: 100px;
+  bottom: 130px;
+  &_img {
+    border-radius: 50%;
+    width: 64px;
+  }
+  &_name {
+    font-size: 18px;
+    color: #ff6060;
+    margin: 15px 15px 0 0;
+  }
+}

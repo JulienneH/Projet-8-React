@@ -1,0 +1,16 @@
+.tags {
+  display: flex;
+  margin-left: 50px;
+  &_button {
+    background-color: #ff6060;
+    color: white;
+    width: 115px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    padding: 5px;
+  }
+}

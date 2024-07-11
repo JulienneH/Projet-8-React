@@ -43,7 +43,7 @@
     max-height: 0;
     overflow: hidden;
     transition: 0.3s ease-out;
-    background-color: white;
+    background-color: $white;
   }
 
   &_content.open {

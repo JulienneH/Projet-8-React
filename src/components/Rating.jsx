@@ -2,9 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-const Rating = ({ rating }) => {
-  const totalStars = 5;
-
+const Rating = ({ rating, totalStars = 5 }) => {
   return (
     <div className="rating">
       {Array(totalStars)

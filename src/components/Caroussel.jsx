@@ -11,7 +11,7 @@ function Caroussel({ pictures }) {
   const [currentPicture, setCurrentPicture] = useState(0);
 
   const nextPicture = () => {
-    //prevIndex représente la valeur actuel de currentPicture au moment ou setCurrentPicture est appelée
+    //prevIndex représente la valeur actuelle de currentPicture au moment ou setCurrentPicture est appelée
     setCurrentPicture((prevIndex) =>
       prevIndex === pictures.length - 1 ? 0 : prevIndex + 1
     );

@@ -1,0 +1,21 @@
+.description_container {
+  display: flex;
+  gap: 80px;
+  margin-left: 50px;
+  width: 95%;
+  margin-bottom: 50px;
+
+  .description_individual {
+    width: 47%;
+    overflow: hidden;
+    border-radius: 5px;
+
+    & .standard_title {
+      background-color: #ff6060;
+    }
+  }
+}
+
+.rotate {
+  transform: rotate(-180deg);
+}
