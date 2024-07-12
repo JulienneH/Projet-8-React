@@ -4,10 +4,11 @@
     width: 93%;
     object-fit: cover;
     height: 413px;
+    border-radius: 25px;
   }
 
   &_title {
-    color: $red;
+    color: #ff6060;
     font-family: "Montserrat";
     font-size: 36px;
     font-weight: 500;
@@ -26,14 +27,14 @@
     left: 60px;
     bottom: 250px;
     width: 90%;
-    color: $white;
+    color: white;
     cursor: pointer;
   }
   &_counter {
     position: relative;
     text-align: center;
     bottom: 50px;
-    color: $white;
+    color: white;
     font-size: 18px;
   }
   &_location {

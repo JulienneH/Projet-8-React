@@ -1,12 +1,14 @@
 .description_container {
   display: flex;
-  gap: 80px;
-  margin-left: 50px;
-  width: 95%;
-  margin-bottom: 50px;
+  justify-content: space-between;
+  margin-left: 40px;
+  width: 97%;
+
+  position: relative;
+  bottom: 60px;
 
   .description_individual {
-    width: 47%;
+    width: 50%;
     overflow: hidden;
     border-radius: 5px;
 
