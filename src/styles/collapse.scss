@@ -5,6 +5,13 @@
     margin-left: 5%;
     margin-top: 250px;
     margin-bottom: 50px;
+    @media (max-width: 768px) {
+      margin-top: 25px;
+      width: 100%;
+      margin-bottom: 0;
+      height: 500px;
+      margin-top: 50px;
+    }
   }
 
   &_individual {
@@ -16,6 +23,10 @@
     margin: 10px;
     overflow: hidden;
     height: 54px;
+    @media (max-width: 768px) {
+      margin: 0;
+      height: 40px;
+    }
   }
 
   &_title {
@@ -28,6 +39,12 @@
     cursor: pointer;
     margin-top: -5px;
     margin-left: 10px;
+    @media (max-width: 768px) {
+      margin-top: 5px;
+    }
+  }
+  &_txt {
+    font-size: 13px;
   }
 
   &_icon {
@@ -35,6 +52,9 @@
     transition: transform 0.3s ease;
     font-size: 32px;
     margin-right: 20px;
+    @media (max-width: 768px) {
+      font-size: 13px;
+    }
   }
 
   .rotate {
@@ -47,6 +67,9 @@
     overflow: hidden;
     transition: 0.3s ease-out;
     background-color: $white;
+    @media (max-width: 768px) {
+      width: 80%;
+    }
   }
 
   &_content.open {

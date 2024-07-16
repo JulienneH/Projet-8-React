@@ -6,7 +6,7 @@
 
   &_logo {
     @media (max-width: 768px) {
-      width: 40%;
+      width: 140px;
       margin: 20px;
     }
     margin: 30px 0px 30px 50px;
@@ -33,7 +33,6 @@
     font-weight: 500;
     @media (max-width: 768px) {
       margin-right: auto;
-      font-size: 15px;
       margin-right: 25px;
     }
     &.active .header_link_style {
@@ -44,5 +43,9 @@
   &_link_style {
     text-decoration: none;
     color: black;
+    font-size: 24px;
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 }

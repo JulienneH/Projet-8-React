@@ -1,4 +1,4 @@
-import Collapse from "../components/Collapse";
+import Collapse from "./Collapse";
 
 export const aboutList = [
   {
@@ -23,7 +23,7 @@ export const aboutList = [
   },
 ];
 
-const DisplayCards = () => {
+const CollapseAbout = () => {
   return (
     <div className="collapse_container">
       {aboutList.map((standard, index) => (
@@ -32,7 +32,5 @@ const DisplayCards = () => {
     </div>
   );
 };
-const About = () => {
-  return <DisplayCards />;
-};
-export default About;
+
+export default CollapseAbout;

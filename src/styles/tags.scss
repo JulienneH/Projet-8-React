@@ -1,6 +1,9 @@
 .tags {
   display: flex;
   margin-left: 50px;
+  @media (max-width: 768px) {
+    margin-left: 25px;
+  }
   &_button {
     background-color: #ff6060;
     color: white;
@@ -12,5 +15,10 @@
     font-size: 14px;
     font-family: "Montserrat";
     padding: 5px;
+    @media (max-width: 768px) {
+      width: 83px;
+      font-size: 10px;
+      min-width: 0;
+    }
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import data from "../data.json";
 import Caroussel from "../components/Caroussel";
-import Description from "../components/DescriptionApartment";
+import DescriptionApartment from "../components/DescriptionApartment";
 import CollapseApartment from "../components/CollapseApartment";
 import Host from "../components/Host";
 import Tags from "..//components/Tags";
@@ -19,16 +19,21 @@ function Apartment() {
   }
 
   return (
-    <div className="caroussel">
+    <div>
       <Caroussel pictures={apartment.pictures} />
-      <Description title={apartment.title} location={apartment.location} />
-      <Tags tags={apartment.tags} />
-      <Host
-        className="host"
-        name={apartment.host.name}
-        picture={apartment.host.picture}
-      />
-      <Rating rating={apartment.rating} />
+      <div className="detailsApartment">
+        <DescriptionApartment
+          title={apartment.title}
+          location={apartment.location}
+        />
+        <Tags tags={apartment.tags} />
+        <Host
+          className="host"
+          name={apartment.host.name}
+          picture={apartment.host.picture}
+        />
+        <Rating rating={apartment.rating} />
+      </div>
       <CollapseApartment
         description={apartment.description}
         equipments={apartment.equipments}

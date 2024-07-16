@@ -12,7 +12,7 @@ const Collapse = ({ standard, className, contentClassName }) => {
     <div className={`collapse ${className}`}>
       <div className="collapse_individual">
         <div className="collapse_title" onClick={Collapse}>
-          <h1>{standard.title}</h1>
+          <h1 className="collapse_txt">{standard.title}</h1>
           <span className={`collapse_icon ${isOpen ? "rotate" : ""}`}>
             <FontAwesomeIcon icon={faChevronUp} />
           </span>

@@ -1,10 +1,15 @@
 .caroussel {
   &_img {
-    margin-left: 50px;
+    margin-left: 30px;
     width: 93%;
     object-fit: cover;
     height: 413px;
     border-radius: 25px;
+    @media (max-width: 768px) {
+      margin-left: 18px;
+      height: 255px;
+      margin-top: 25px;
+    }
   }
 
   &_title {
@@ -13,6 +18,11 @@
     font-size: 36px;
     font-weight: 500;
     margin-left: 50px;
+    @media (max-width: 768px) {
+      font-size: 18px;
+      margin-left: 25px;
+      margin-top: 0;
+    }
   }
 
   &_description {
@@ -29,6 +39,12 @@
     width: 90%;
     color: white;
     cursor: pointer;
+    @media (max-width: 768px) {
+      left: 25px;
+      bottom: 180px;
+      width: 90%;
+      font-size: 30px;
+    }
   }
   &_counter {
     position: relative;
@@ -41,8 +57,19 @@
     margin-left: 50px;
     font-family: "Montserrat";
     font-size: 18px;
+    @media (max-width: 768px) {
+      margin-left: 25px;
+      margin-top: 0;
+    }
   }
 }
 .caroussel_container {
   height: 413px;
+  @media (max-width: 768px) {
+    height: 300px;
+  }
+}
+.detailsApartment {
+  display: flex;
+  flex-direction: column;
 }

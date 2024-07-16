@@ -1,6 +1,6 @@
 import React from "react";
 
-const Description = ({ title, location }) => {
+const DescriptionApartment = ({ title, location }) => {
   return (
     <>
       <h1 className="caroussel_title">{title}</h1>
@@ -8,4 +8,4 @@ const Description = ({ title, location }) => {
     </>
   );
 };
-export default Description;
+export default DescriptionApartment;

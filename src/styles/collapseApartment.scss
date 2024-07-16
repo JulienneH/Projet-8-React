@@ -3,9 +3,13 @@
   justify-content: space-between;
   margin-left: 40px;
   width: 97%;
-
   position: relative;
   bottom: 60px;
+  @media (max-width: 768px) {
+    margin-left: 25px;
+    width: 100%;
+    flex-direction: column;
+  }
 
   .description_individual {
     width: 50%;
@@ -14,6 +18,9 @@
 
     & .standard_title {
       background-color: #ff6060;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
     }
   }
 }
