@@ -9,6 +9,9 @@
     bottom: 0;
     top: 10px;
   }
+  @media (min-width: 768px) and (max-width: 1025px) {
+    bottom: 100px;
+  }
   &_img {
     border-radius: 50%;
     width: 64px;
@@ -18,7 +21,7 @@
   }
   &_name {
     font-size: 18px;
-    color: #ff6060;
+    color: var(--red-color);
     margin: 15px 15px 0 0;
     @media (max-width: 768px) {
       font-size: 12px;

@@ -15,9 +15,9 @@
 }
 
 .star {
-  color: #e0e0e0;
+  color: var(--white-color);
 }
 
 .star.filled {
-  color: #ff6060;
+  color: var(--red-color);
 }

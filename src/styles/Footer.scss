@@ -4,8 +4,12 @@
   background-color: black;
   @media (max-width: 768px) {
     position: inherit;
-    margin-top: 30px;
     padding-bottom: 5px;
+  }
+  @media (min-width: 768px) and (max-width: 1025px) {
+    position: relative;
+    top: 50px;
+    height: 300px;
   }
 
   &_img {
@@ -22,12 +26,12 @@
     }
   }
   &_icon {
-    color: white;
+    color: var(--white-color);
     position: relative;
     margin-right: 10px;
   }
   &_text {
-    color: white;
+    color: var(--white-color);
     display: flex;
     margin-top: 90px;
     margin-left: 43%;

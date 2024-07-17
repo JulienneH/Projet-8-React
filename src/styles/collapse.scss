@@ -7,16 +7,20 @@
     margin-bottom: 50px;
     @media (max-width: 768px) {
       margin-top: 25px;
-      width: 100%;
+      width: 95%;
       margin-bottom: 0;
       height: 500px;
       margin-top: 50px;
+    }
+    @media (min-width: 768px) and (max-width: 1025px) {
+      margin-bottom: 240px;
+      margin-top: 300px;
     }
   }
 
   &_individual {
     width: 90%;
-    background-color: #ff6060;
+    background-color: var(--red-color);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -30,7 +34,7 @@
   }
 
   &_title {
-    color: white;
+    color: var(--white-color);
     font-family: "Montserrat";
     font-size: 14px;
     display: flex;
@@ -44,7 +48,9 @@
     }
   }
   &_txt {
-    font-size: 13px;
+    @media (max-width: 768px) {
+      font-size: 13px;
+    }
   }
 
   &_icon {
@@ -66,13 +72,13 @@
     max-height: 0;
     overflow: hidden;
     transition: 0.3s ease-out;
-    background-color: $white;
+    background-color: var(--white-color);
     @media (max-width: 768px) {
       width: 80%;
     }
   }
 
   &_content.open {
-    max-height: 200px;
+    max-height: 210px;
   }
 }

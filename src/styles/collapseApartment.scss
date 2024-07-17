@@ -7,7 +7,7 @@
   bottom: 60px;
   @media (max-width: 768px) {
     margin-left: 25px;
-    width: 100%;
+    width: 93%;
     flex-direction: column;
   }
 
@@ -17,7 +17,7 @@
     border-radius: 5px;
 
     & .standard_title {
-      background-color: #ff6060;
+      background-color: var(--red-color);
     }
     @media (max-width: 768px) {
       width: 100%;

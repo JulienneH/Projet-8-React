@@ -5,8 +5,8 @@
     margin-left: 25px;
   }
   &_button {
-    background-color: #ff6060;
-    color: white;
+    background-color: var(--red-color);
+    color: var(--white-color);
     min-width: 115px;
     border-radius: 10px;
     border: none;

@@ -1,6 +1,6 @@
 .card {
   &_container {
-    background-color: $grey;
+    background-color: var(--grey-color);
     border-radius: 25px;
     width: 93%;
     position: relative;
@@ -11,12 +11,12 @@
     margin-bottom: 300px;
     @media (max-width: 768px) {
       top: 150px;
-      background-color: $white;
+      background-color: var(--white-color);
       width: 100%;
       left: auto;
       padding-top: 110px;
       position: inherit;
-      margin-bottom: auto;
+      margin-bottom: 30px;
     }
   }
 
@@ -37,12 +37,12 @@
       left: auto;
     }
     @media (min-width: 768px) and (max-width: 1025px) {
-      width: 27%;
+      width: 25%;
     }
   }
   &_title {
     font-size: 18px;
-    color: $white;
+    color: var(--white-color);
     margin-left: 20px;
     position: absolute;
     z-index: 2;

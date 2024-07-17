@@ -13,7 +13,7 @@
   }
 
   &_title {
-    color: #ff6060;
+    color: var(--red-color);
     font-family: "Montserrat";
     font-size: 36px;
     font-weight: 500;
@@ -37,7 +37,7 @@
     left: 60px;
     bottom: 250px;
     width: 90%;
-    color: white;
+    color: var(--white-color);
     cursor: pointer;
     @media (max-width: 768px) {
       left: 25px;
@@ -45,12 +45,15 @@
       width: 90%;
       font-size: 30px;
     }
+    @media (min-width: 768px) and (max-width: 1025px) {
+      left: 45px;
+    }
   }
   &_counter {
     position: relative;
     text-align: center;
     bottom: 50px;
-    color: white;
+    color: var(--white-color);
     font-size: 18px;
   }
   &_location {
@@ -67,6 +70,9 @@
   height: 413px;
   @media (max-width: 768px) {
     height: 300px;
+  }
+  @media (min-width: 768px) and (max-width: 1025px) {
+    height: auto;
   }
 }
 .detailsApartment {
