@@ -16,7 +16,7 @@ const CollapseApartment = ({ description, equipments }) => {
         standard={{
           title: "Équipements",
           content: (
-            <ul>
+            <ul className="description_list">
               {equipments && equipments.length > 0 ? (
                 equipments.map((equipment, index) => (
                   <li key={index}>{equipment}</li>

@@ -5,8 +5,14 @@ import CollapseAbout from "../components/CollapseAbout";
 const About = () => {
   return (
     <div>
-      <img className="home_image" src={AboutPageImage} alt="Image_landscape" />
-      <CollapseAbout />
+      <img
+        className="home_image about_image"
+        src={AboutPageImage}
+        alt="Image_landscape"
+      />
+      <div className="about_collapse">
+        <CollapseAbout />
+      </div>
     </div>
   );
 };

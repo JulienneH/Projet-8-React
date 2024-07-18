@@ -1,9 +1,9 @@
 .host {
   display: flex;
   flex-direction: row-reverse;
-  position: relative;
-  right: 100px;
-  bottom: 130px;
+  //position: relative;
+  //right: 100px;
+  //bottom: 130px;
   @media (max-width: 768px) {
     right: 15px;
     bottom: 0;
@@ -27,4 +27,8 @@
       font-size: 12px;
     }
   }
+}
+.detailsHost {
+  display: flex;
+  flex-direction: column;
 }

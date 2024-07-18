@@ -8,12 +8,13 @@ function Footer() {
     <footer>
       <div className="footer">
         <img className="footer_img" src={FooterLogo} alt="logo" />
-
-        <h3 className="footer_text">
-          {" "}
-          <FontAwesomeIcon className="footer_icon" icon={faCopyright} />
-          2020 Kasa.All rights reserved
-        </h3>
+        <div className="footer_text">
+          <h3>
+            {" "}
+            <FontAwesomeIcon className="footer_icon" icon={faCopyright} />
+            2020 Kasa.All rights reserved
+          </h3>
+        </div>
       </div>
     </footer>
   );

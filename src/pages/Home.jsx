@@ -6,7 +6,11 @@ function Home() {
   return (
     <>
       <div className="home_container">
-        <img className="home_image" src={coverHome} alt="Image_landscape" />
+        <img
+          className="home_image home_filter"
+          src={coverHome}
+          alt="Image_landscape"
+        />
         <span className="home_text">Chez vous, partout et ailleurs</span>
       </div>
 

@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 5%;
-    margin-top: 250px;
+    margin-top: 270px;
     margin-bottom: 50px;
     @media (max-width: 768px) {
       margin-top: 25px;
@@ -27,6 +27,7 @@
     margin: 10px;
     overflow: hidden;
     height: 54px;
+    margin-bottom: 30px;
     @media (max-width: 768px) {
       margin: 0;
       height: 40px;
@@ -36,12 +37,12 @@
   &_title {
     color: var(--white-color);
     font-family: "Montserrat";
-    font-size: 14px;
+    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    margin-top: -5px;
+    //margin-top: -5px;
     margin-left: 10px;
     @media (max-width: 768px) {
       margin-top: 5px;
@@ -56,7 +57,7 @@
   &_icon {
     display: inline-block;
     transition: transform 0.3s ease;
-    font-size: 32px;
+    font-size: 25px;
     margin-right: 20px;
     @media (max-width: 768px) {
       font-size: 13px;
@@ -68,7 +69,7 @@
   }
 
   &_content {
-    padding: 15px;
+    padding: 0;
     max-height: 0;
     overflow: hidden;
     transition: 0.3s ease-out;

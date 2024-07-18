@@ -1,6 +1,6 @@
 .caroussel {
   &_img {
-    margin-left: 30px;
+    margin-left: 50px;
     width: 93%;
     object-fit: cover;
     height: 413px;
@@ -17,10 +17,9 @@
     font-family: "Montserrat";
     font-size: 36px;
     font-weight: 500;
-    margin-left: 50px;
+    margin: 0px;
     @media (max-width: 768px) {
       font-size: 18px;
-      margin-left: 25px;
       margin-top: 0;
     }
   }
@@ -33,22 +32,32 @@
     font-size: 50px;
     display: flex;
     justify-content: space-between;
-    position: relative;
-    left: 60px;
-    bottom: 250px;
-    width: 90%;
-    color: var(--white-color);
+    position: absolute;
+    top: 350px;
+    transform: translateY(-50%);
     cursor: pointer;
+    color: var(--white-color);
+    width: 93%;
+    margin-left: 50px;
+
     @media (max-width: 768px) {
-      left: 25px;
-      bottom: 180px;
-      width: 90%;
+      width: 100%;
       font-size: 30px;
+      margin-left: auto;
+      top: 250px;
     }
     @media (min-width: 768px) and (max-width: 1025px) {
       left: 45px;
     }
   }
+  &_previous {
+    margin-left: 25px;
+  }
+
+  &_next {
+    margin-right: 25px;
+  }
+
   &_counter {
     position: relative;
     text-align: center;
@@ -57,11 +66,10 @@
     font-size: 18px;
   }
   &_location {
-    margin-left: 50px;
     font-family: "Montserrat";
     font-size: 18px;
+    margin: 5px 0px 20px 0px;
     @media (max-width: 768px) {
-      margin-left: 25px;
       margin-top: 0;
     }
   }
@@ -78,4 +86,8 @@
 .detailsApartment {
   display: flex;
   flex-direction: column;
+  margin-left: 50px;
+  @media (max-width: 768px) {
+    margin-left: 25px;
+  }
 }
