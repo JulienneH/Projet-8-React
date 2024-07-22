@@ -5,7 +5,7 @@ const Tags = ({ tags }) => {
     <div className="tags">
       {tags.map((tag, index) => (
         <div key={index} className="tags_button">
-          {tag}
+          <p className="tags_txt"> {tag}</p>
         </div>
       ))}
     </div>

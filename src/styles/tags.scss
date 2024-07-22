@@ -1,5 +1,11 @@
 .tags {
   display: flex;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   &_button {
     background-color: var(--red-color);
     color: var(--white-color);
@@ -11,11 +17,21 @@
     font-size: 14px;
     font-family: "Montserrat";
     padding: 5px;
+    max-height: 20px;
     font-weight: 700;
     @media (max-width: 768px) {
-      width: 83px;
+      min-width: 83px;
+      height: 18px;
+      margin-bottom: 10px;
       font-size: 10px;
-      min-width: 0;
+    }
+  }
+  &_txt {
+    margin: 0;
+    @media (max-width: 768px) {
+      display: flex;
+      margin: 0;
+      justify-content: center;
     }
   }
 }

@@ -4,11 +4,7 @@
   //position: relative;
   //right: 100px;
   //bottom: 130px;
-  @media (max-width: 768px) {
-    right: 15px;
-    bottom: 0;
-    top: 10px;
-  }
+
   @media (min-width: 768px) and (max-width: 1025px) {
     bottom: 100px;
   }
@@ -16,7 +12,7 @@
     border-radius: 50%;
     width: 64px;
     @media (max-width: 768px) {
-      width: 40px;
+      width: 50px;
     }
   }
   &_name {
@@ -31,4 +27,8 @@
 .detailsHost {
   display: flex;
   flex-direction: column;
+  @media (max-width: 768px) {
+    flex-direction: row-reverse;
+    margin-top: 10px;
+  }
 }

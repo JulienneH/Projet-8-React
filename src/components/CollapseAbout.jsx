@@ -25,9 +25,9 @@ export const aboutList = [
 
 const CollapseAbout = () => {
   return (
-    <div className="collapse_container">
+    <div className="collapse_container ">
       {aboutList.map((standard, index) => (
-        <Collapse key={index} standard={standard} />
+        <Collapse className="collapse_about" key={index} standard={standard} />
       ))}
     </div>
   );

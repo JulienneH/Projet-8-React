@@ -7,10 +7,6 @@
   align-items: center;
   flex-direction: column;
 
-  @media (max-width: 768px) {
-    position: inherit;
-    padding-bottom: 5px;
-  }
   @media (min-width: 768px) and (max-width: 1025px) {
     position: relative;
     top: 50px;
@@ -20,11 +16,6 @@
   &_img {
     width: 122px;
     height: 40px;
-    @media (max-width: 768px) {
-      position: inherit;
-      margin-left: 35%;
-      margin-top: 15%;
-    }
     @media (min-width: 768px) and (max-width: 1025px) {
       left: 45%;
     }
@@ -46,9 +37,6 @@
     margin-top: 30px;
     @media (max-width: 768px) {
       font-size: 12px;
-      text-align: center;
-      margin-top: 20px;
-      margin-left: 26%;
     }
     @media (min-width: 768px) and (max-width: 1025px) {
       margin-left: 30%;
