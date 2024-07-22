@@ -23,7 +23,7 @@ function Apartment() {
     <>
       <Caroussel pictures={apartment.pictures} />
       <div className="details">
-        <div className="detailsApartment">
+        <div className="details_apartment">
           <DescriptionApartment
             title={apartment.title}
             location={apartment.location}

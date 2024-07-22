@@ -5,9 +5,7 @@ function Header() {
   const location = useLocation();
   return (
     <header className="header">
-      <div>
-        <img className="header_logo" src={header} alt="logo_header" />
-      </div>
+      <img className="header_logo" src={header} alt="logo_header" />
       <ul className="header_menu">
         <li
           className={`header_link ${location.pathname === "/home" ? "active" : ""}`}

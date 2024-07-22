@@ -8,7 +8,7 @@ const CardIndividual = ({ apartment }) => {
       <Link to={`/apartment/${apartment.id}`}>
         <div className="card_title">
           <h1>{apartment.title}</h1>
-        </div>{" "}
+        </div>
         <img className="card_img" src={apartment.cover} alt={apartment.title} />{" "}
       </Link>
     </div>

@@ -10,7 +10,6 @@ function Footer() {
         <img className="footer_img" src={FooterLogo} alt="logo" />
         <div className="footer_text">
           <h3>
-            {" "}
             <FontAwesomeIcon className="footer_icon" icon={faCopyright} />
             2020 Kasa.All rights reserved
           </h3>

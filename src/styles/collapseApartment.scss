@@ -1,16 +1,18 @@
-.description_container {
-  display: flex;
-  justify-content: space-between;
-  width: 97%;
-  margin: 20px 0 30px 50px;
-  @media (max-width: 768px) {
-    margin-left: 15px;
-    width: 96%;
-    flex-direction: column;
-    margin-bottom: 60px;
+.description {
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin: 20px 0 30px 50px;
+    @media (max-width: 768px) {
+      margin-left: 15px;
+      width: 96%;
+      flex-direction: column;
+      margin-bottom: 60px;
+    }
   }
 
-  .description_individual {
+  &_individual {
     width: 50%;
     overflow: hidden;
     border-radius: 5px;
@@ -22,15 +24,16 @@
       width: 100%;
     }
   }
-  .description_list {
+  &_list {
     list-style: none;
     padding-left: 15px;
   }
-}
-.description_content {
-  width: 80%;
-}
 
-.rotate {
-  transform: rotate(-180deg);
+  &_content {
+    width: 80%;
+  }
+
+  .rotate {
+    transform: rotate(-180deg);
+  }
 }

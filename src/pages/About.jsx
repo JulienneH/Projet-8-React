@@ -4,7 +4,7 @@ import CollapseAbout from "../components/CollapseAbout";
 
 const About = () => {
   return (
-    <div>
+    <>
       <img
         className="home_image about_image"
         src={AboutPageImage}
@@ -13,7 +13,7 @@ const About = () => {
       <div className="about_collapse">
         <CollapseAbout />
       </div>
-    </div>
+    </>
   );
 };
 

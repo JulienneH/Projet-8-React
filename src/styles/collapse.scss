@@ -43,12 +43,7 @@
     justify-content: space-between;
     cursor: pointer;
   }
-  &_txt {
-    height: 210px;
-    @media (max-width: 768px) {
-      height: 120px;
-    }
-  }
+
   &_txt_title {
     margin: 15px;
     @media (max-width: 768px) {
