@@ -15,12 +15,13 @@
     box-shadow: 0px 4px 4px 0px #00000040;
     @media (max-width: 768px) {
       margin-top: 10px;
-      height: 15%;
       display: flex;
-      left: 15px;
+      left: 22px;
       top: auto;
       position: relative;
       height: 111px;
+      border-radius: 10px;
+      width: 90%;
     }
 
     @media (min-width: 768px) and (max-width: 1025px) {
