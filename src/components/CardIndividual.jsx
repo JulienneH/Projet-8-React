@@ -9,7 +9,7 @@ const CardIndividual = ({ apartment }) => {
         <div className="card_title">
           <h1>{apartment.title}</h1>
         </div>
-        <img className="card_img" src={apartment.cover} alt={apartment.title} />{" "}
+        <img className="card_img" src={apartment.cover} alt={apartment.title} />
       </Link>
     </div>
   );
