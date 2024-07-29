@@ -2,7 +2,9 @@
   width: 380px;
 }
 .about_collapse {
-  height: 470px;
+  @media (max-width: 768px) {
+    min-height: 470px;
+  }
 }
 .collapse_about {
   margin-bottom: 30px;
