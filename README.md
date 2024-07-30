@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installation
+
+1. **Clone the repository**
+   Open your terminal and run the following command:
+
+   ```bash
+   git clone https://github.com/JulienneH/Projet-8-React.git
+
+   ```
+
+2. **Navigate to the project directory**
+   cd Projet-8-React
+
+3. **Install the dependencies**
+   npm install
+
+4. **Start the application**
+   npm run start
+
 ## Available Scripts
 
 In the project directory, you can run:
