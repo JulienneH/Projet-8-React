@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/JulienneH/Projet-8-React/static/css/main.1f929e4a.css",
+    "main.js": "/JulienneH/Projet-8-React/static/js/main.06d0c05d.js",
+    "static/js/453.ed3810f9.chunk.js": "/JulienneH/Projet-8-React/static/js/453.ed3810f9.chunk.js",
+    "static/media/AboutPage.png": "/JulienneH/Projet-8-React/static/media/AboutPage.abab3f12f4cb82f1dfa1.png",
+    "static/media/coverHome.png": "/JulienneH/Projet-8-React/static/media/coverHome.d00ae7dd3ef927bb988d.png",
+    "index.html": "/JulienneH/Projet-8-React/index.html",
+    "main.1f929e4a.css.map": "/JulienneH/Projet-8-React/static/css/main.1f929e4a.css.map",
+    "main.06d0c05d.js.map": "/JulienneH/Projet-8-React/static/js/main.06d0c05d.js.map",
+    "453.ed3810f9.chunk.js.map": "/JulienneH/Projet-8-React/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f929e4a.css",
+    "static/js/main.06d0c05d.js"
+  ]
+}
